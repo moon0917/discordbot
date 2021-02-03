@@ -2,6 +2,7 @@ import discord
 import openpyxl
 import requests
 import asyncio
+import os
 from json import loads
 
 
@@ -25,4 +26,6 @@ async def on_ready():
         except:
             a = 0
         await asyncio.sleep(15)
-client.run('546d7d9e9509ce6c62522b7fbdd7bf7f7aed6f39faa7bc778364a930ed78a66e')
+        
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)
