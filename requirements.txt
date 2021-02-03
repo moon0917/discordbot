@@ -1,0 +1,4 @@
+discord.py==0.16.12
+openpyxl.py==0.16.12
+requests.py==0.16.12
+asyncio.py==0.16.12
