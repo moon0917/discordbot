@@ -27,5 +27,5 @@ async def on_ready():
             a = 0
         await asyncio.sleep(15)
         
-access_token = os.environ["BOT_TOKEN"]
+access_token = os.environ['BOT_TOKEN']
 client.run(access_token)
